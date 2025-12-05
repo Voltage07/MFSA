@@ -59,7 +59,7 @@ body {
     border-top-color: #0e3e11;
     border-radius: 50%;
     animation: spin 1s linear infinite;
-    background-image: url(/assets/styles/loader.png);
+    background-image: url(/assets/styles/loader.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
