@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+p{
+  font-size: 16px;
+}
 
 /* Make images easier to work with */
 img, picture, video, canvas, svg {

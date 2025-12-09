@@ -1,55 +1,87 @@
-
-@media (max-width: 480px) { 
-    header {
-            background:linear-gradient(180deg, var(--b-m) 5%, rgba(15, 15, 15,.4) 80%), url(/assets/img/bg-mobile.jpg);
-            background-position:center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: auto;
-            /* background-attachment: scroll; */
+@media (max-width: 480px) {
+  header {
+    background: linear-gradient(
+        180deg,
+        var(--b-m) 5%,
+        rgba(15, 15, 15, 0.4) 80%
+      ),
+      url(/assets/img/bg-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    /* background-attachment: scroll; */
+  }
+  p {
+    font-size: 14px;
+  }
+  .hero{
+      margin-top: 80px;
 
     }
-      .h-c{grid-template-columns: 1fr; text-align:center}
-      .h-card{order:2}
+  .h-c {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .h-card {
+    order: 2;
+  }
+  
 
-        .logo{
-            margin-left:0;
-        }
-    nav{
-        display: none;
-    }
-    .menu{
+  .logo {
+    margin-left: 0;
+  }
+  nav {
+    display: none;
+  }
+  .menu {
     display: block;
-    }
-    .navbox{
+  }
+  .navbox {
     width: 100%;
     padding: 10px 10px 10px 15px;
-    }
+  }
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+  header {
+    background: linear-gradient(
+        180deg,
+        var(--b-m) 5%,
+        rgba(15, 15, 15, 0.4) 80%
+      ),
+      url(/assets/img/bg-tab.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+    /* background-attachment: fixed; */
+  }
+  p {
+    font-size: 14px;
+  }
+    .hero{
+      margin-top: 80px;
 
-@media (min-width: 481px) and (max-width: 768px) { 
-    header {
-            background:linear-gradient(180deg, var(--b-m) 5%, rgba(15, 15, 15,.4) 80%), url(/assets/img/bg-tab.jpg);
-            background-position:center;
-            background-repeat: no-repeat;
-            background-size: 100%;
-            height: auto;
-            /* background-attachment: fixed; */
     }
-      .h-c{grid-template-columns: 1fr; text-align:center}
-      .h-card{order:2}
-        .logo{
-            margin-left:0;
-        }
-    nav{
-        display: none;
-    }
-    .menu{
-        display: block;
-}
-    .navbox{
+  .h-c {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .h-card {
+    order: 2;
+  }
+  .logo {
+    margin-left: 0;
+  }
+  nav {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .navbox {
     width: 100%;
     padding: 10px 10px 10px 15px;
-    }
+  }
 }
