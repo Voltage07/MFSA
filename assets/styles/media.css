@@ -5,7 +5,7 @@
         var(--b-m) 5%,
         rgba(15, 15, 15, 0.4) 80%
       ),
-      url(/assets/img/bg-mobile.jpg);
+      url(/assets/img/bg-mobile.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,7 +50,7 @@
         var(--b-m) 5%,
         rgba(15, 15, 15, 0.4) 80%
       ),
-      url(/assets/img/bg-tab.jpg);
+      url(/assets/img/bg-tab.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
