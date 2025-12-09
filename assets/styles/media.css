@@ -1,7 +1,7 @@
 
 @media (max-width: 480px) { 
     header {
-            background:linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15,.1) 100%), url(/assets/img/test.jpg);
+            background:linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15,.1) 100%), url(/assets/img/test2.jpg);
             background-position: left center;
             background-repeat: no-repeat;
             background-size: cover;
