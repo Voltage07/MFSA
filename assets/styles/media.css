@@ -1,13 +1,17 @@
 
 @media (max-width: 480px) { 
     header {
-            background:linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15,.1) 100%), url(/assets/img/bg-mobile.jpg);
+            background:linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15,.1) 100%), url(/assets/img/test.jpg);
             background-position: left center;
             background-repeat: no-repeat;
             background-size: cover;
+            height: 100vh;
             /* background-attachment: scroll; */
 
     }
+        .logo{
+            margin-left:0;
+        }
     nav{
         display: none;
     }
@@ -23,12 +27,16 @@
 
 @media (min-width: 481px) and (max-width: 768px) { 
     header {
-            background:linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15,.1) 100%), url(/assets/img/bg-tab.jpg);
+            background:linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15,.1) 100%), url(/assets/img/test.jpg);
             background-position: left center;
             background-repeat: no-repeat;
             background-size: cover;
+            height: 100vh;
             /* background-attachment: fixed; */
     }
+        .logo{
+            margin-left:0;
+        }
     nav{
         display: none;
     }
