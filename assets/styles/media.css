@@ -1,23 +1,13 @@
 @media (max-width: 480px) {
   header {
-    background: linear-gradient(
-        180deg,
-        var(--b-m) 5%,
-        rgba(15, 15, 15, 0.4) 80%
-      ),
-      url(/assets/img/bg-m.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 135vh;
-    /* background-attachment: scroll; */
   }
   p {
     font-size: 14px;
   }
 
 .hero {
-  margin-top: 90px;
+  margin-top: 100px;
   position: absolute;
       top: 0;
       left: 50%;
@@ -33,28 +23,28 @@
 }
 /* swiper */
 .sw-1{
-  background: linear-gradient(180deg, var(--b-m) 10%, rgba(15, 15, 15, 0.4) 80%),url(/assets/img/bg-m.webp);
+  background: linear-gradient(180deg, var(--b-m) 10%, rgba(15, 15, 15, 0.4) 80%),url(/assets/img/bg-desk-480.webp);
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;  
 }
 .sw-2{
-background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.4) 80%),url(/assets/img/b3-m.webp);
+background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.4) 80%),url(/assets/img/b3-480.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .sw-3{
-background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.4) 80%),url(/assets/img/b6-m.webp);
+background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.4) 80%),url(/assets/img/b6-480.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .sw-4{
-background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.4) 80%),url(/assets/img/b2-m.webp);
+background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.4) 80%),url(/assets/img/b2-480.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -89,9 +79,7 @@ background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.4) 80%),ur
 
 @media (min-width: 481px) and (max-width: 768px) {
   header {
-
     height: 130vh;
-    /* background-attachment: fixed; */
   }
   p {
     font-size: 14px;
@@ -114,28 +102,28 @@ background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.4) 80%),ur
 }
 /* swiper */
 .sw-1{
-  background: linear-gradient(180deg, var(--b-m) 10%, rgba(15, 15, 15, 0.5) 80%),url(/assets/img/bg-t.webp);
+  background: linear-gradient(180deg, var(--b-m) 10%, rgba(15, 15, 15, 0.5) 80%),url(/assets/img/bg-desk-768.webp);
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;  
 }
 .sw-2{
-background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.7) 80%),url(/assets/img/b3-res.webp);
+background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.7) 80%),url(/assets/img/b3-768.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .sw-3{
-background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.7) 80%),url(/assets/img/b6-res.webp);
+background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.7) 80%),url(/assets/img/b6-768.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .sw-4{
-background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.7) 80%),url(/assets/img/b2.webp);
+background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.7) 80%),url(/assets/img/b2-768.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

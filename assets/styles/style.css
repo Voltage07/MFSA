@@ -239,28 +239,28 @@ body {
   height: 100%;
 }
 .sw-1{
-  background: linear-gradient(180deg, var(--b-m) 10%, rgba(15, 15, 15, 0.6) 80%),url(/assets/img/bg-desk.webp);
+  background: linear-gradient(180deg, var(--b-m) 10%, rgba(15, 15, 15, 0.6) 80%),url(/assets/img/bg-desk-1200.webp);
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;  
 }
 .sw-2{
-background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.8) 80%),url(/assets/img/b3.webp);
+background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.8) 80%),url(/assets/img/b3-1200.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .sw-3{
-background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.8) 80%),url(/assets/img/b6.webp);
+background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.8) 80%),url(/assets/img/b6-1200.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .sw-4{
-background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.8) 80%),url(/assets/img/b2.webp);
+background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.8) 80%),url(/assets/img/b2-1200.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
