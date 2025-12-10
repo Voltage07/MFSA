@@ -33,28 +33,28 @@
 }
 /* swiper */
 .sw-1{
-  background: linear-gradient(180deg, var(--b-m) 10%, rgba(15, 15, 15, 0.5) 80%),url(/assets/img/bg-m.webp);
+  background: linear-gradient(180deg, var(--b-m) 10%, rgba(15, 15, 15, 0.4) 80%),url(/assets/img/bg-m.webp);
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;  
 }
 .sw-2{
-background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.7) 80%),url(/assets/img/b3-res.webp);
+background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.4) 80%),url(/assets/img/b3-m.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .sw-3{
-background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.7) 80%),url(/assets/img/b6-res.webp);
+background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.4) 80%),url(/assets/img/b6-m.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .sw-4{
-background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.7) 80%),url(/assets/img/b2.webp);
+background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.4) 80%),url(/assets/img/b2-m.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
