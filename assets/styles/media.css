@@ -75,6 +75,24 @@ background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.4) 80%),ur
   .m-drop {
     display: flex;
   }
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 48px 18px;
+  }
+
+  .g-left,
+  .g-right {
+    text-align: center;
+    align-items: center;
+    padding: 28px;
+    min-height: auto;
+  }
+
+  /* on mobile, use fade-up instead of left/right for both */
+  .g-left, .g-right {
+    transform: translateY(40px);
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -151,5 +169,23 @@ background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.7) 80%),ur
   }
   .m-drop {
   display: flex;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 48px 18px;
+  }
+
+  .g-left,
+  .g-right {
+    text-align: center;
+    align-items: center;
+    padding: 28px;
+    min-height: auto;
+  }
+
+  /* on mobile, use fade-up instead of left/right for both */
+  .g-left, .g-right {
+    transform: translateY(40px);
   }
 }
