@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Splide CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+
+
+
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      :root {
+  --y-m: #ffcb05;
+  --y-l: #ffd74a;
+  --b-m: #000000;
+  --g-t: #2e2e2e;
+  --white: #ffffff;
+  --radius: 12px;
+}
+
+
+      /* Make header full viewport height */
+#hero-header {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* full height of viewport */
+  overflow: hidden;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-wrapper{
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.sw-1{
+    background-image: url(/assets/img/bg-desk.webp);   
+}
+.sw-2{
+    background-image: url(/assets/img/b3.webp);
+}
+.sw-3{
+    background-image: url(/assets/img/b6.webp);
+}
+.sw-4{
+    background-image: url(/assets/img/b2.webp);
+}
+
+
+/* Optional overlay content */
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  z-index: 10;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+
+
+@media (max-width: 480px) {
+#hero-header {
+    height: 100vh;
+  }
+
+.swiper-slide{
+  background-attachment: scroll;
+}
+.sw-1{
+    background-image: url(/assets/img/bg-m.webp);   
+}
+.sw-2{
+    background-image: url(/assets/img/b3-res.webp);
+}
+.sw-3{
+    background-image: url(/assets/img/b6-res.webp);
+}
+.sw-4{
+    background-image: url(/assets/img/b2.webp);
+}
+
+}
+@media (min-width: 481px) and (max-width: 768px) {
+#hero-header {
+    height: 100vh;
+  }
+  .sw-1{
+    background-image: url(/assets/img/bg-t.webp);   
+}
+.sw-2{
+    background-image: url(/assets/img/b3-res.webp);
+}
+.sw-3{
+    background-image: url(/assets/img/b6-res.webp);
+}
+.sw-4{
+    background-image: url(/assets/img/b2.webp);
+}
+
+}
+    </style>
+
+  </head>
+  <body>
+<header id="hero-header">
+<!-- Slider main container -->
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide sw-1"></div>
+    <div class="swiper-slide sw-2"></div>
+    <div class="swiper-slide sw-3"></div>
+    <div class="swiper-slide sw-4"></div>
+  </div>
+</div>
+  <div class="header-content">
+  </div>
+</header>
+
+<!-- Splide JS (usually at the bottom of body) -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper('.swiper', {
+  direction: 'horizontal',
+  loop: true,
+  autoplay: {
+  delay: 5000,
+  disableOnInteraction: false,
+},
+
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+</script>
+  </body>
+</html>

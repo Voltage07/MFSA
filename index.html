@@ -10,6 +10,7 @@
     <link rel="manifest" href="/assets/styles/site.webmanifest">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="/assets/styles/style.css">
     <style>
         /* SECTIONS */
@@ -35,36 +36,55 @@
 </div>
 <!-- header -->
 <header>
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide sw-1"></div>
+    <div class="swiper-slide sw-2"></div>
+    <div class="swiper-slide sw-3"></div>
+    <div class="swiper-slide sw-4"></div>
+  </div>
+</div>
 <div class="hero" role="banner">
     <div class="h-c">
-      <!-- Left: Headline -->
-      <div class="headline" aria-labelledby="h-main-heading">
+    <!-- Left: Headline -->
+    <div class="headline" aria-labelledby="h-main-heading">
         <div class="eyebrow">Live Forex & Crypto Training</div>
 
         <!-- Main headline: Yellow on black -->
         <h1 id="h-main-heading" class="hero-title">
-          Empowering You to Trade Smarter Every Day
+        Empowering You to Trade Smarter Every Day
         </h1>
 
         <!-- Subheadline -->
         <p class="sub">
-          Practical, instructor-led forex & crypto lessons, live market walkthroughs, and daily trade reviews — designed to build confidence and skill fast.
+        Practical, instructor-led forex & crypto lessons, live market walkthroughs, and daily trade reviews — designed to build confidence and skill fast.
         </p>
 
         <!-- Small emphasis / strip -->
         <div class="strip">Starts from Beginner → Pro</div>
-      </div>
+    </div>
 
-      <!-- Right: Call-to-action card -->
-      <aside class="h-card" aria-label="Signup box">
+    <!-- Right: Call-to-action card -->
+    <aside class="h-card" aria-label="Signup box">
         <p style="margin:0 0 12px 0; font-weight:700;">Limited participants • Early bird pricing ends soon.</p>
         <p style="margin:0 0 18px 0; color:#444;">Join a live session or book a 1-on-1 coaching call with our lead trader.</p>
         <a class="h-btn" href="#signup">Book a free lesson</a>
-      </aside>
+    </aside>
     </div>
 </div>
+<div class="mt-mt">
 
+    <h3>Proudly supported by industry leaders</h3>
+    <br>
+    <div class="mt-mt-box">
+        <img src="/assets/img/mt4.webp" alt="partner logo">
+        <img src="/assets/img/MT5.webp" alt="partner logo">
+        <img src="/assets/img/tradingview.webp" alt="partner logo">
+    </div>
+</div>
 </header>
+
 <div class="navbox">
     <div class="logo">
     <img src="/assets/img/mfsw.png" alt="logo">
@@ -139,7 +159,7 @@
 
 
 
-    
+ <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>   
 <script src="/assets/scripts/m.js"></script>
 <script>
     let menu = document.querySelector('.menu');
@@ -152,6 +172,28 @@
             menu.innerHTML = '<i class="fa-solid fa-bars"></i>';
         }
     })
+    // swiper
+const swiper = new Swiper('.swiper', {
+  direction: 'horizontal',
+  loop: true,
+  autoplay: {
+  delay: 5000,
+  disableOnInteraction: false,
+},
+
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
 </script>
 </body>
 </html>
