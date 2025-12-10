@@ -228,7 +228,7 @@ header {
   overflow: hidden;
   border-bottom: 3px solid var(--y-m);
   background-color: var(--white);
-  display: flex;
+  display: none;
   justify-content: space-between;
   align-items: flex-start;
   transition: all 0.5s;
