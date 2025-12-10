@@ -93,6 +93,10 @@ background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.4) 80%),ur
   .g-left, .g-right {
     transform: translateY(40px);
   }
+  /* footer */
+  .b-footer {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -187,5 +191,9 @@ background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.7) 80%),ur
   /* on mobile, use fade-up instead of left/right for both */
   .g-left, .g-right {
     transform: translateY(40px);
+  }
+  /*footer  */
+ .b-footer {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }
