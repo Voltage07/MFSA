@@ -99,6 +99,7 @@ background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.4) 80%),ur
   }
   .b-footer {
     grid-template-columns: 1fr;
+    margin-top: 15px;
   }
     .m-footer{
     font-size: 12px;
