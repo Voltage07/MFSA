@@ -27,28 +27,33 @@
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;  
+  /* background-attachment: fixed;   */
 }
 .sw-2{
 background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.4) 80%),url(/assets/img/b3-480.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 .sw-3{
 background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.4) 80%),url(/assets/img/b6-480.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 .sw-4{
 background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.4) 80%),url(/assets/img/b2-480.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
+}
+@supports (-webkit-touch-callout: none) {
+  .sw-1, .sw-2, .sw-3, .sw-4 {
+    background-attachment: scroll !important;
+  }
 }
   .h-c {
     grid-template-columns: 1fr;
@@ -186,28 +191,33 @@ padding: 10px;
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;  
+  /* background-attachment: fixed;   */
 }
 .sw-2{
 background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.7) 80%),url(/assets/img/b3-768.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 .sw-3{
 background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.7) 80%),url(/assets/img/b6-768.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 .sw-4{
 background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.7) 80%),url(/assets/img/b2-768.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
+}
+@supports (-webkit-touch-callout: none) {
+  .sw-1, .sw-2, .sw-3, .sw-4 {
+    background-attachment: scroll !important;
+  }
 }
   .h-c {
     grid-template-columns: 1fr;
