@@ -89,9 +89,60 @@ background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.4) 80%),ur
     min-height: auto;
   }
 
-  /* on mobile, use fade-up instead of left/right for both */
   .g-left, .g-right {
     transform: translateY(40px);
+  }
+    /* sections */
+  .about{
+  width: 100%;
+  display: grid;
+  padding: 10px 15px;
+  grid-template-columns:1fr;
+  gap: 10px;
+  background: linear-gradient(180deg, rgba(209, 209, 223, 0.5) 0%, rgba(209, 209, 223, 0.5) 80%),url(/assets/img/ab-bg.webp);
+}
+.about .a1{
+padding: 10px;
+}
+.about .a1 h1{
+ font-size: 30px;
+ text-align: center;
+ font-weight: 900;
+ line-height: 1.1;
+ margin-bottom: 20px;
+}
+.about .a1 h3{
+  color:var(--main) ;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.6;
+}
+.about .a1 p{
+  color: var(--g-t);
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 14px;
+  text-align: center;
+}
+  .about .a2{
+    padding: 10px;
+ }
+ .about .a2 .a2i {
+  padding: 10px;
+  gap: 8px;                  
+  position: absolute;
+  right: 15px;
+  top: 15px;   
+  font-size: 11px;
+}
+
+  .about .a2 .a2i .a2icon{
+    color: var(--white);
+    flex-shrink: 0;
+  }
+  .about .a2 img{
+    border-radius: var(--radius);
+    width: 100%;
   }
   /* footer */
   footer{
@@ -195,10 +246,63 @@ background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.7) 80%),ur
     min-height: auto;
   }
 
-  /* on mobile, use fade-up instead of left/right for both */
+
   .g-left, .g-right {
     transform: translateY(40px);
   }
+    /* sections */
+  .about{
+  width: 100%;
+  display: grid;
+  padding: 10px 15px;
+  grid-template-columns:1fr;
+  gap: 10px;
+  background: linear-gradient(180deg, rgba(209, 209, 223, 0.5) 0%, rgba(209, 209, 223, 0.5) 80%),url(/assets/img/ab-bg.webp);
+}
+.about .a1{
+padding: 10px;
+}
+.about .a1 h1{
+ font-size: 40px;
+ text-align: center;
+ font-weight: 900;
+ line-height: 1.1;
+ margin-bottom: 20px;
+}
+.about .a1 h3{
+  color:var(--main) ;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.6;
+}
+.about .a1 p{
+  color: var(--g-t);
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 16px;
+  text-align: center;
+}
+  .about .a2{
+    padding: 10px;
+ }
+ .about .a2 .a2i {
+  padding: 10px;
+  gap: 8px;                  
+  position: absolute;
+  right: 20px;
+  top: 20px;   
+  font-size: 11px;
+}
+
+  .about .a2 .a2i .a2icon{
+    color: var(--white);
+    flex-shrink: 0;
+  }
+  .about .a2 img{
+    border-radius: var(--radius);
+    width: 100%;
+  }
+
   /*footer  */
     footer{
     padding: 10px;
