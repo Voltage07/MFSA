@@ -483,7 +483,67 @@ nav a:last-child {
   gap: 10px;
   background: linear-gradient(180deg, rgba(209, 209, 223, 0.5) 0%, rgba(209, 209, 223, 0.5) 80%),url(/assets/img/ab-bg.webp);
 }
-
+.quotecont{
+  width: 100%;
+  padding:50px;
+  background: linear-gradient(180deg, rgba(209, 209, 223, 0.5) 0%, rgba(209, 209, 223, 0.5) 80%),url(/assets/img/ab-bg.webp);
+}
+.founder-quote{
+  width:100%;
+  background-color:var(--white);
+  /* height: 200px; */
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  display: grid;
+  grid-template-columns:35% 1fr;
+    gap: 10px;
+  position: relative;
+  margin: 40px auto 30px;
+  padding: 60px;
+  border-radius: var(--radius);
+}
+.founder-quote::before {
+    content: '"';
+    position: absolute;
+    top: -13px;
+    left: 30px;
+    font-size: 6rem;
+    /* font-family: Georgia, serif; */
+    color: 
+ color-mix(in srgb, var(--main), transparent 85%);
+    font-weight: bold;
+    line-height: 1;
+}
+.founder-quote .a1{
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.founder-quote .a1 img{
+  width: 150px;
+  will-change: transform;
+  transform: translateZ(0);
+}
+.founder-quote .a2{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.founder-quote .a2 .quote{
+  font-style: italic;
+  line-height: 1.6;
+}
+.founder-quote .a2 .author{
+  font-weight: bold;
+  margin-top: 8px;
+}
+.founder-quote .a2 .role{
+  color: var(--y-m);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
 .about .a1{
 padding: 30px;
 display: flex;
