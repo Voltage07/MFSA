@@ -526,6 +526,8 @@ grid-template-columns: minmax(300px, 1fr) repeat(3, minmax(150px, 1fr)) minmax(9
 .m-footer{
   width: 100%;
   display: flex;
+  font-size: 13px;
+  text-align: center;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
