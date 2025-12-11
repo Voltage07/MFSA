@@ -1,13 +1,30 @@
 @media (max-width: 480px) {
   header {
-    height: 110vh;
+  height: auto;
+  background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.3) 80%),url(/assets/img/bg-m.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   }
   p {
     font-size: 14px;
   }
 
 .hero {
-  transform: translateY(-20px);
+  /* transform: translateY(-20px); */
+}
+.h-c {
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  .h-card {
+    order: 2;
+  }
+.mt-mt .mt-mt-box{
+  margin-bottom:20px ;
 }
 .mt-mt h3{
   margin-left: 10px;
@@ -17,49 +34,7 @@
 .mt-mt .mt-mt-box img{
   width: 90px;
 }
-/* swiper */
-.sw-1{
-  background: linear-gradient(180deg, var(--b-m) 10%, rgba(15, 15, 15, 0.4) 80%),url(/assets/img/bg-desk-480.webp);
-    background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-attachment: fixed;   */
-}
-.sw-2{
-background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.4) 80%),url(/assets/img/b3-480.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-attachment: fixed; */
-}
-.sw-3{
-background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.4) 80%),url(/assets/img/b6-480.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-attachment: fixed; */
-}
-.sw-4{
-background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.4) 80%),url(/assets/img/b2-480.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-attachment: fixed; */
-}
-@supports (-webkit-touch-callout: none) {
-  .sw-1, .sw-2, .sw-3, .sw-4 {
-    background-attachment: scroll !important;
-  }
-}
 
-  .h-c {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-  .h-card {
-    order: 2;
-  }
-  
 
   .logo {
     margin-left: 0;
@@ -217,16 +192,32 @@ padding: 10px;
 
 @media (min-width: 481px) and (max-width: 768px) {
   header {
-    height: 130vh;
+  height: auto;
+  background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.3) 80%),url(/assets/img/bg-t.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   }
   p {
     font-size: 14px;
   }
 
 .hero {
-  transform: translateY(-20px);
+  /* transform: translateY(-20px); */
 }
-
+.h-c {
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  .h-card {
+    order: 2;
+  }
+.mt-mt .mt-mt-box{
+  margin-bottom:20px ;
+}
 .mt-mt h3{
   margin-left: 10px;
   font-size: 16px;
@@ -235,47 +226,8 @@ padding: 10px;
 .mt-mt .mt-mt-box img{
   width: 90px;
 }
-/* swiper */
-.sw-1{
-  background: linear-gradient(180deg, var(--b-m) 10%, rgba(15, 15, 15, 0.5) 80%),url(/assets/img/bg-desk-768.webp);
-    background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-attachment: fixed;   */
-}
-.sw-2{
-background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.7) 80%),url(/assets/img/b3-768.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-attachment: fixed; */
-}
-.sw-3{
-background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.7) 80%),url(/assets/img/b6-768.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-attachment: fixed; */
-}
-.sw-4{
-background: linear-gradient(180deg, var(--b-m) 0%, rgba(15, 15, 15, 0.7) 80%),url(/assets/img/b2-768.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-attachment: fixed; */
-}
-@supports (-webkit-touch-callout: none) {
-  .sw-1, .sw-2, .sw-3, .sw-4 {
-    background-attachment: scroll !important;
-  }
-}
-  .h-c {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-  .h-card {
-    order: 2;
-  }
+
+
   .logo {
     margin-left: 0;
   }

@@ -10,7 +10,7 @@
     <link rel="manifest" href="/assets/styles/site.webmanifest">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/> -->
     <link rel="stylesheet" href="/assets/styles/style.css">
     <link rel="stylesheet" href="/assets/styles/media.css">
 </head>
@@ -20,16 +20,7 @@
 </div>
 <!-- header -->
 <header>
-<div class="swiper">
-  <div class="swiper-wrapper">
-    <!-- Slides -->
-    <div class="swiper-slide sw-1"></div>
-    <div class="swiper-slide sw-2"></div>
-    <div class="swiper-slide sw-3"></div>
-    <div class="swiper-slide sw-4"></div>
-  </div>
-</div>
-<div class="hero" role="banner">
+<div class="hero reveal" role="banner">
     <div class="h-c reveal fade-up">
     <!-- Left: Headline -->
     <div class="headline" aria-labelledby="h-main-heading">
@@ -225,7 +216,7 @@
 
 
 
- <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>   
+ <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>    -->
 <script src="/assets/scripts/m.js"></script>
 <script>
     let menu = document.querySelector('.menu');
@@ -239,27 +230,27 @@
         }
     })
     // swiper
-const swiper = new Swiper('.swiper', {
-  direction: 'horizontal',
-  loop: true,
-  autoplay: {
-  delay: 5000,
-  disableOnInteraction: false,
-},
+// const swiper = new Swiper('.swiper', {
+//   direction: 'horizontal',
+//   loop: true,
+//   autoplay: {
+//   delay: 5000,
+//   disableOnInteraction: false,
+// },
 
-  pagination: {
-    el: '.swiper-pagination',
-  },
+//   pagination: {
+//     el: '.swiper-pagination',
+//   },
 
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+//   navigation: {
+//     nextEl: '.swiper-button-next',
+//     prevEl: '.swiper-button-prev',
+//   },
 
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-});
+//   scrollbar: {
+//     el: '.swiper-scrollbar',
+//   },
+// });
 // year
 let d = new Date();
 document.getElementById('year').innerHTML = d.getFullYear();
