@@ -159,6 +159,12 @@
 <p>
   <strong>email:</strong><span style="color: var(--y-m);">contact@myforexsignatureacademy.com</span>
 </p>
+<div class="so-1">
+    <a href="#"><i class="fa-brands fa-telegram n-i-2"></i></a>
+    <a href="#"><i class="fa-brands fa-whatsapp n-i-2"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram n-i-2"></i></a>
+    <a href="#"><i class="fa-brands fa-tiktok n-i-2"></i></a>
+</div>
  </div>
  <div class="bfq">
 <h2>Useful Links</h2>
@@ -193,7 +199,7 @@
  </div>
   </div>
  <div class="m-footer">
-
+ <p>&copy; <span id="year"></span> MyForexSignatureAcademy. All Rights Reserved.</p>
  </div>
  </footer>
 
@@ -234,6 +240,9 @@ const swiper = new Swiper('.swiper', {
     el: '.swiper-scrollbar',
   },
 });
+// year
+let d = new Date();
+document.getElementById('year').innerHTML = d.getFullYear();
 </script>
 </body>
 </html>
