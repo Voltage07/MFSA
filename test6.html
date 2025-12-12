@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pricing Plans</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 40px 0;
+    }
+:root {
+  --y-m: #ffcb05;
+}
+    .pricing-wrapper {
+      max-width: 100%;
+      margin: auto;
+      display: grid;
+      gap: 25px;
+      padding: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    align-items: start; 
+    }
+
+    .pricing-wrapper .plan {
+      background: #fff;
+      border-radius: 14px;
+      padding: 30px 25px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all .5s;
+    }
+    .pricing-wrapper .plan:hover{
+      transform: translateY(-10px);
+    } 
+    .pricing-wrapper .plan.new {
+      border: 2px solid var(--y-m);
+        padding-bottom: 30px;
+        padding-top: 60px;
+    }
+    .pricing-wrapper .new-tag {
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--y-m);
+      color: #fff;
+      padding: 5px 16px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    .pricing-wrapper .plan-title {
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .pricing-wrapper .price {
+      text-align: center;
+      font-size: 32px;
+      font-weight: bold;
+      margin: 10px 0;
+      color: var(--y-m);
+    }
+
+    .pricing-wrapper .price small {
+      font-size: 14px;
+      font-weight: normal;
+      color: #555;
+    }
+
+    .pricing-wrapper .desc {
+      text-align: center;
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+      line-height: 1.5rem;
+    }
+
+    .pricing-wrapper ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 25px;
+    }
+
+    .pricing-wrapper ul li {
+      margin: 10px 0;
+      font-size: 14px;
+      color: #333;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .pricing-wrapper ul li i {
+      color: var(--y-m);
+      margin-top: 2px;
+    }
+
+    .pricing-wrapper .btn {
+      background: var(--y-m);
+      color: #fff;
+      padding: 12px;
+      text-align: center;
+      border-radius: 30px;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      display: block;
+      margin-top: auto;
+      transition: all .5s;
+      border: 1px solid var(--y-m);
+    }
+
+    .pricing-wrapper .btn:hover {
+      background: none;
+      color: var(--y-m);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="pricing-wrapper">
+
+    <div class="plan">
+      <div class="plan-title">Free Plan</div>
+      <div class="price">$0 <small>/month</small></div>
+      <p class="desc">A starter package for beginners who want to learn the basics and start trading confidently.</p>
+      <ul>
+        <li><i class="fa-solid fa-circle-check"></i>Perfect for beginners starting out</li>
+        <li><i class="fa-solid fa-circle-check"></i>Daily crypto market insights</li>
+        <li><i class="fa-solid fa-circle-check"></i>Introductory trading signals</li>
+        <li><i class="fa-solid fa-circle-check"></i>Community access</li>
+      </ul>
+      <a href="#" class="btn">Free Link to Telegram</a>
+    </div>
+
+    <div class="plan new">
+      <div class="new-tag">NEW</div>
+      <div class="plan-title">Pro Plan – Advanced Trader</div>
+      <div class="price">$49 <small>/month</small></div>
+      <p class="desc">For traders who want deeper market knowledge and advanced strategies.</p>
+      <ul>
+        <li><i class="fa-solid fa-circle-check"></i>Intermediate & advanced tutorials</li>
+        <li><i class="fa-solid fa-circle-check"></i>Daily trading signals</li>
+        <li><i class="fa-solid fa-circle-check"></i>Technical analysis breakdowns</li>
+        <li><i class="fa-solid fa-circle-check"></i>Priority support</li>
+      </ul>
+      <a href="#" class="btn">Get Pro Access</a>
+    </div>
+
+    <div class="plan">
+      <div class="plan-title">VIP Crypto Signals Plan – Elite Access</div>
+      <div class="price">$99 <small>/month</small></div>
+      <p class="desc">Elite crypto signals, portfolio guidance, and early market opportunities.</p>
+      <ul>
+        <li><i class="fa-solid fa-circle-check"></i>Premium crypto signals</li>
+        <li><i class="fa-solid fa-circle-check"></i>Early access to listings & updates</li>
+        <li><i class="fa-solid fa-circle-check"></i>Direct Telegram/WhatsApp alerts</li>
+        <li><i class="fa-solid fa-circle-check"></i>Personalized guidance</li>
+      </ul>
+      <a href="#" class="btn">Get VIP Access</a>
+    </div>
+
+    <div class="plan">
+      <div class="plan-title">VIP Forex Signals Plan – Executive Level</div>
+      <div class="price">$99 <small>/month</small></div>
+      <p class="desc">Clear entries, risk parameters, daily analysis, and exclusive VIP support.</p>
+      <ul>
+        <li><i class="fa-solid fa-circle-check"></i>Verified high-accuracy signals</li>
+        <li><i class="fa-solid fa-circle-check"></i>Real-time trade alerts</li>
+        <li><i class="fa-solid fa-circle-check"></i>Daily strategy reviews</li>
+        <li><i class="fa-solid fa-circle-check"></i>Dedicated support</li>
+      </ul>
+      <a href="#" class="btn">Get VIP Access</a>
+    </div>
+
+  </div>
+
+</body>
+</html>

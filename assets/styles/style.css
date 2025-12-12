@@ -46,6 +46,7 @@ body {
   --radius: 12px;
   --main: #40372e;
   --grey:#4b4949;
+  --free:rgb(45, 45, 231);
 }
 h1,h2,h3,h4,h5,h6{
   color: #281a0c;
@@ -559,6 +560,119 @@ transition: all .5s;
   color: var(--y-m);
 }
 
+/* prices */
+    .pricing-wrapper {
+      max-width: 100%;
+      margin: auto;
+      margin-top: 50px;
+      display: grid;
+      gap: 25px;
+      padding: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    align-items: start; 
+    }
+
+    .pricing-wrapper .plan {
+      background: #fff;
+      border-radius: 14px;
+      padding: 30px 25px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all .5s;
+    }
+    .pricing-wrapper .plan:hover{
+      transform: translateY(-10px);
+    } 
+    .pricing-wrapper .plan.new {
+      border: 2px solid var(--y-m);
+        padding-bottom: 30px;
+        padding-top: 60px;
+    }
+    .pricing-wrapper .new-tag {
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--y-m);
+      color: #fff;
+      padding: 5px 16px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    .pricing-wrapper .plan-title {
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .pricing-wrapper .price {
+      text-align: center;
+      font-size: 32px;
+      font-weight: bold;
+      margin: 10px 0;
+      color: var(--y-m);
+    }
+
+    .pricing-wrapper .price small {
+      font-size: 14px;
+      font-weight: normal;
+      color: #555;
+    }
+
+    .pricing-wrapper .desc {
+      text-align: center;
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+      line-height: 1.5rem;
+    }
+
+    .pricing-wrapper ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 25px;
+    }
+
+    .pricing-wrapper ul li {
+      margin: 10px 0;
+      font-size: 14px;
+      color: #333;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .pricing-wrapper ul li i {
+      color: var(--y-m);
+      margin-top: 2px;
+    }
+
+    .pricing-wrapper .btn {
+      background: var(--y-m);
+      color: #fff;
+      padding: 12px;
+      text-align: center;
+      border-radius: 30px;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      display: block;
+      margin-top: auto;
+      transition: all .5s;
+      border: 1px solid var(--y-m);
+    }
+
+    .pricing-wrapper .btn:hover {
+      background: none;
+      color: var(--y-m);
+    }
   /* quote */
 .quotecont{
   width: 100%;
