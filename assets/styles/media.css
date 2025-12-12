@@ -1,3 +1,11 @@
+/* Remove animations for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
 @media (max-width: 480px) {
   header {
   height: auto;
@@ -66,9 +74,10 @@
     min-height: auto;
   }
 
-  .g-left, .g-right {
-    transform: translateY(40px);
-  }
+.fade-up { transform: translateY(60px); }
+.fade-left { transform: translateX(-50px); }
+.fade-right { transform: translateX(50px); }
+
     /* sections */
   .about{
   width: 100%;
@@ -259,9 +268,9 @@ padding: 10px;
   }
 
 
-  .g-left, .g-right {
-    transform: translateY(40px);
-  }
+.fade-up { transform: translateY(60px); }
+.fade-left { transform: translateX(-40px); }
+.fade-right { transform: translateX(40px); }
     /* sections */
   .about{
   width: 100%;
