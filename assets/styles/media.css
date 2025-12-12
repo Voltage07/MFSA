@@ -135,6 +135,31 @@ padding: 10px;
     border-radius: var(--radius);
     width: 100%;
   }
+    .about2 .a1 h2{
+  font-size: 25px;
+  margin-top: 20px;
+  text-align: center;
+}
+.about2 .a1 p{
+  color: var(--g-t);
+  font-weight: 400;
+  text-align: center;
+}
+.about2 .a2{
+  padding: 5px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 25px;
+  margin-top: 40px;
+}
+.about2 .a2 .g-items{
+  padding: 5px;
+}
+.about2 .a2 .g-items p{
+  word-spacing: 1px;
+  margin-top: 5px;
+}
     /* quote */
   .quotecont{
   padding:10px 15px;
@@ -333,6 +358,32 @@ padding: 10px;
     border-radius: var(--radius);
     width: 100%;
   }
+
+  .about2 .a1 h2{
+  font-size: 25px;
+  margin-top: 30px;
+  text-align: center;
+}
+.about2 .a1 p{
+  color: var(--g-t);
+  font-weight: 400;
+  text-align: center;
+}
+.about2 .a2{
+  padding: 5px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 25px;
+  margin-top: 40px;
+}
+.about2 .a2 .g-items{
+  padding: 5px;
+}
+.about2 .a2 .g-items p{
+  word-spacing: 1px;
+  margin-top: 5px;
+}
   /* quote */
   .quotecont{
   padding:10px 15px;
