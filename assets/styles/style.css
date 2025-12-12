@@ -4,6 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html, body {
+  overflow-x: hidden;
+}
 p {
   font-size: 16px;
 }
@@ -495,6 +499,15 @@ transition: all .5s;
   align-items: center;
   background-color: var(--white);
 }
+.about2 .a1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+/* .about2 .a1 h2{
+  width: ;
+} */
   /* quote */
 .quotecont{
   width: 100%;
@@ -510,7 +523,7 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
   grid-template-columns:35% 1fr;
     gap: 10px;
   position: relative;
-  margin: 40px auto 30px;
+  margin: 40px auto 20px;
   padding: 60px;
   border-radius: var(--radius);
   transition: all .5s;
