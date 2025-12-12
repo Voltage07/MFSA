@@ -50,7 +50,12 @@ h1,h2,h3,h4,h5,h6{
   color: #281a0c;
   font-family: "Roboto", sans-serif;
 }
-
+h2 { font-size: 25px; }
+h3 { font-size: 20px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+h6 { font-size: 14px; }
+p { font-size: 16px; }
 
 .reveal {
   opacity: 0;
@@ -433,7 +438,6 @@ transition: all .5s;
 }
 .about .a1 h3{
   color:var(--main) ;
-  font-size: 20px;
   line-height: 1.7;
   margin-bottom: 15px;
 }
@@ -441,7 +445,6 @@ transition: all .5s;
   color: var(--g-t);
   font-weight: 400;
   line-height: 1.7;
-  font-size: 18px;
 }
   .about .a2{
     padding: 30px;
