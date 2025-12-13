@@ -160,6 +160,10 @@ padding: 10px;
   word-spacing: 1px;
   margin-top: 5px;
 }
+/* prices */
+.pricing-wrapper {
+  margin-top: 0;
+}
     /* quote */
   .quotecont{
   padding:10px 15px;
@@ -389,7 +393,7 @@ padding: 10px;
 
   .about2 .a1 h2{
   font-size: 25px;
-  margin-top: 30px;
+  margin-top: 10px;
   text-align: center;
 }
 .about2 .a1 p{
@@ -411,6 +415,10 @@ padding: 10px;
 .about2 .a2 .g-items p{
   word-spacing: 1px;
   margin-top: 5px;
+}
+/* prices */
+.pricing-wrapper {
+  margin-top: 0;
 }
   /* quote */
   .quotecont{
