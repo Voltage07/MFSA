@@ -406,13 +406,12 @@ nav a:last-child {
 }
   /* SECTIONS */
   section{
-    /* padding: 20px; */
-    /* border: 1px solid black; */
     margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    transition: all .5s;
   }
   section:last-of-type{
     margin-bottom: 100px;
@@ -570,6 +569,7 @@ transition: all .5s;
   padding: 10px 30px;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 align-items: start; 
+transition: all .5s;
 }
 
 .pricing-wrapper .plan {
@@ -760,6 +760,7 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
   justify-content:flex-start;
   align-items: center;
   background-color: var(--white);
+  transition: all .5s;
 }
 .faq h2{
   font-size: 40px;
