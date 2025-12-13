@@ -96,7 +96,7 @@ p { font-size: 14px; }
 padding: 10px;
 }
 .about .a1 h1{
- font-size: 30px;
+ font-size: 25px;
  text-align: center;
  font-weight: 900;
  line-height: 1.1;
@@ -162,7 +162,7 @@ padding: 10px;
 }
 /* prices */
 .pricing-wrapper {
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 10px;
 }
     /* quote */
@@ -234,6 +234,7 @@ align-items: center;
 /* faq */
 .faq{
   padding: 10px 20px;
+    margin-top: 15px;
 }
 .fcontent {
   padding: 5px;
@@ -356,7 +357,7 @@ p { font-size: 14px; }
 padding: 10px;
 }
 .about .a1 h1{
- font-size: 40px;
+ font-size: 30px;
  text-align: center;
  font-weight: 900;
  line-height: 1.1;
@@ -364,7 +365,7 @@ padding: 10px;
 }
 .about .a1 h3{
   color:var(--main) ;
-  font-size: 18px;
+  font-size: 1px;
   text-align: center;
   line-height: 1.6;
 }
@@ -372,7 +373,7 @@ padding: 10px;
   color: var(--g-t);
   font-weight: 400;
   line-height: 1.6;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
 }
   .about .a2{
@@ -423,7 +424,7 @@ padding: 10px;
 }
 /* prices */
 .pricing-wrapper {
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 10px;
 }
   /* quote */
@@ -510,6 +511,9 @@ align-items: center;
 .fcontent .accordcont .accordion-content{
   font-size: 14px;
   line-height: 1.5;
+}
+.faq{
+  margin-top: 15px;
 }
   /*footer  */
     footer{

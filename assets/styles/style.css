@@ -407,7 +407,6 @@ nav a:last-child {
 }
   /* SECTIONS */
   section{
-    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -419,6 +418,7 @@ nav a:last-child {
   }
   /* about */
 .about{
+  margin-top: 80px;
   width: 100%;
   display: grid;
   padding: 10px 30px;
@@ -563,7 +563,7 @@ transition: all .5s;
 /* prices */
 .pricing-wrapper {
   width: 100%;
-  margin: 50px auto 0;
+  margin: 80px auto 0;
   display: grid;
   gap: 25px;
   padding: 10px 30px;
@@ -677,7 +677,7 @@ transition: all .5s;
 .newscont{
 width: 100%;
 margin: auto;
-margin-top: 100px;
+margin-top: 80px;
 display: grid;
 gap: 25px;
 padding: 10px 50px;
@@ -756,6 +756,7 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
 }
 /* faq */
 .faq{
+  margin-top: 80px;
   width: 100%;
   padding: 10px 30px;
   display: flex;
