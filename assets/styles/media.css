@@ -162,7 +162,8 @@ padding: 10px;
 }
 /* prices */
 .pricing-wrapper {
-  margin-top: 0;
+  margin-top: 50px;
+    padding: 10px;
 }
     /* quote */
   .quotecont{
@@ -222,14 +223,17 @@ padding: 10px;
 }
 /* news */
 .newscont{
-margin-top: 80px;
+margin-top: 50px;
 display: grid;
 gap: 20px;
-padding: 10px 30px;
+padding: 10px;
 grid-template-columns: 1fr;
 align-items: center; 
 }
 /* faq */
+.faq{
+  padding: 10px 20px;
+}
 .fcontent {
   padding: 5px;
   flex-direction: column;
@@ -418,7 +422,8 @@ padding: 10px;
 }
 /* prices */
 .pricing-wrapper {
-  margin-top: 0;
+  margin-top: 50px;
+  padding: 10px;
 }
   /* quote */
   .quotecont{
@@ -481,7 +486,7 @@ padding: 10px;
 margin-top: 80px;
 display: grid;
 gap: 20px;
-padding: 10px 30px;
+padding: 10px;
 grid-template-columns: 1fr;
 align-items: center; 
 }
