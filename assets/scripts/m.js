@@ -1,6 +1,42 @@
 // Runs early — after HTML is ready
 document.addEventListener("DOMContentLoaded", () => {
 
+ let menu = document.querySelector('.menu');
+    menu.addEventListener('click',function(){
+        let drop = document.getElementById('m-drop');
+        drop.classList.toggle('m-d-o');
+        if(drop.classList.contains('m-d-o')){
+            menu.innerHTML = '<i class="fa-regular fa-circle-xmark"></i>';
+        }else{
+            menu.innerHTML = '<i class="fa-solid fa-bars"></i>';
+        }
+    })
+
+    document.querySelectorAll('.m-drop .nav a').forEach(anchors=>{
+      anchors.addEventListener('click',()=>{
+        let drop = document.getElementById('m-drop');
+        drop.classList.remove('m-d-o');
+      })
+    })
+    document.querySelectorAll('.m-drop .logo .so-1 a').forEach(anchors=>{
+      anchors.addEventListener('click',()=>{
+        let drop = document.getElementById('m-drop');
+        drop.classList.remove('m-d-o');
+      })
+    })
+// faq
+ let accordion = document.querySelectorAll('.fcontent .accordion-header');
+  accordion.forEach(ah=>{
+      ah.addEventListener('click',function(){
+          document.querySelectorAll('.fcontent .accordion-content').forEach((contents)=>{
+              if(contents !== ah.nextElementSibling){
+                  contents.classList.remove('accordopen');
+              }
+          });
+          ah.nextElementSibling.classList.toggle('accordopen');
+      });
+  });
+
     // Intersection Observer options
 const options = {
   root: null,
@@ -35,3 +71,20 @@ window.addEventListener("load", () => {
         preloader.style.display = "none";
     }, 600);
 });
+
+    // scroll effect
+  let tops = document.getElementById("top");
+  window.addEventListener("scroll", function () {
+    if (window.pageYOffset > 500) {
+      tops.classList.add("show");
+    } else {
+      tops.classList.remove("show");
+    }
+  });
+  if (tops) {
+    tops.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  } else {
+    console.error("Element with ID 'top' not found!");
+  }

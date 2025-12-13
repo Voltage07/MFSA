@@ -59,6 +59,30 @@ h5 { font-size: 16px; }
 h6 { font-size: 14px; }
 p { font-size: 16px; }
 
+/* top */
+.top {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  display: block;
+  padding: 10px;
+  z-index: 3;
+  background-color: var(--y-m);
+  color: var(--white);
+  border-radius: 10px;
+  font-size: 12px;
+}
+#top {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#top.show {
+  opacity: 1;
+  visibility: visible;
+}
+/* reveal */
 .reveal {
   opacity: 0;
   transform: translateY(0);

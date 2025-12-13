@@ -19,6 +19,7 @@
     <div id="preloader">
     <div id="loader"></div>
 </div>
+<p class="top" id="top"><i class="fa-solid fa-up-long topicon"></i></p>
 <!-- header -->
 <header>
 <div class="hero" role="banner">
@@ -212,10 +213,10 @@
       <div class="price"><span style="color: var(--free);">$0</span> <small>/month</small></div>
       <p class="desc">A starter package for beginners who want to learn the basics and start trading confidently.</p>
       <ul>
-        <li><i class="fa-solid fa-circle-check" style="color: var(--free);"></i>Perfect for beginners starting out</li>
+        <li><i class="fa-solid fa-circle-check" style="color: var(--free);"></i>Perfect for beginners who want to learn and start trading confidently.</li>
         <li><i class="fa-solid fa-circle-check" style="color: var(--free);"></i>Daily crypto market insights</li>
         <li><i class="fa-solid fa-circle-check" style="color: var(--free);"></i>Introductory trading signals</li>
-        <li><i class="fa-solid fa-circle-check" style="color: var(--free);"></i>Community access</li>
+        <li><i class="fa-solid fa-circle-check" style="color: var(--free);"></i>Access to MFS online community</li>
       </ul>
       <a href="https://t.me/MyForexSignature" class="btn" style="color: var(--white);background-color: var(--free);border:none">Free Link to Telegram</a>
     </div>
@@ -224,40 +225,41 @@
       <div class="new-tag">NEW</div>
       <div class="plan-title">Pro Plan – Advanced Trader</div>
       <div class="price">$49 <small>/month</small></div>
-      <p class="desc">For traders who want deeper market knowledge and advanced strategies.</p>
+      <p class="desc">Perfect for traders who want deeper market knowledge, detailed chart breakdowns, and advanced strategies.</p>
       <ul>
-        <li><i class="fa-solid fa-circle-check"></i>Intermediate & advanced tutorials</li>
-        <li><i class="fa-solid fa-circle-check"></i>Daily trading signals</li>
-        <li><i class="fa-solid fa-circle-check"></i>Technical analysis breakdowns</li>
-        <li><i class="fa-solid fa-circle-check"></i>Priority support</li>
+        <li><i class="fa-solid fa-circle-check"></i>Access to intermediate and advanced tutorials</li>
+        <li><i class="fa-solid fa-circle-check"></i>Daily crypto trading signals</li>
+        <li><i class="fa-solid fa-circle-check"></i>Technical analysis breakdowns and market trends</li>
+        <li><i class="fa-solid fa-circle-check"></i>Priority support from trading experts</li>
       </ul>
-      <a href="#" class="btn">Get Pro Access</a>
+      <a href="#" onclick="sw(event, 'Hello, I want to subscribe to the Pro Plan – Advanced Trader.')" class="btn">Get Pro Access</a>
     </div>
 
     <div class="plan">
       <div class="plan-title">VIP Crypto Signals Plan – Elite Access</div>
       <div class="price">$99 <small>/month</small></div>
-      <p class="desc">Elite crypto signals, portfolio guidance, and early market opportunities.</p>
+      <p class="desc">Elite-level crypto signals with high accuracy, portfolio guidance, and early market opportunities.</p>
       <ul>
-        <li><i class="fa-solid fa-circle-check"></i>Premium crypto signals</li>
-        <li><i class="fa-solid fa-circle-check"></i>Early access to listings & updates</li>
-        <li><i class="fa-solid fa-circle-check"></i>Direct Telegram/WhatsApp alerts</li>
-        <li><i class="fa-solid fa-circle-check"></i>Personalized guidance</li>
+        <li><i class="fa-solid fa-circle-check"></i>Premium crypto trading signals</li>
+        <li><i class="fa-solid fa-circle-check"></i>Early access to token listings, airdrops, and launch updates</li>
+        <li><i class="fa-solid fa-circle-check"></i>Direct Telegram or WhatsApp signal alerts</li>
+        <li><i class="fa-solid fa-circle-check"></i>Personalized crypto portfolio guidance</li>
       </ul>
-      <a href="#" class="btn">Get VIP Access</a>
+      <a href="#" onclick="sw(event, 'Hello, I want to subscribe to the VIP Crypto Signals Plan – Elite Access.')" class="btn">Get VIP Access</a>
     </div>
 
     <div class="plan">
       <div class="plan-title">VIP Forex Signals Plan – Executive Level</div>
       <div class="price">$99 <small>/month</small></div>
-      <p class="desc">Clear entries, risk parameters, daily analysis, and exclusive VIP support.</p>
+      <p class="desc">Premium forex signals with clear entries, risk parameters, daily analysis, and private VIP support.</p>
       <ul>
-        <li><i class="fa-solid fa-circle-check"></i>Verified high-accuracy signals</li>
-        <li><i class="fa-solid fa-circle-check"></i>Real-time trade alerts</li>
-        <li><i class="fa-solid fa-circle-check"></i>Daily strategy reviews</li>
-        <li><i class="fa-solid fa-circle-check"></i>Dedicated support</li>
+        <li><i class="fa-solid fa-circle-check"></i>Verified high-accuracy forex signals</li>
+        <li><i class="fa-solid fa-circle-check"></i>Real-time trade alerts with entry, stop-loss, and take-profit</li>
+        <li><i class="fa-solid fa-circle-check"></i>Daily strategy reviews and market commentary</li>
+        <li><i class="fa-solid fa-circle-check"></i>Premium forex trading signals</li>
+        <li><i class="fa-solid fa-circle-check"></i>Dedicated VIP support and private chat access</li>
       </ul>
-      <a href="#" class="btn">Get VIP Access</a>
+      <a href="#" onclick="sw(event, 'Hello, I want to subscribe to the VIP Forex Signals Plan – Executive Level.')" class="btn">Get VIP Access</a>
     </div>
 
   </div>
@@ -393,35 +395,17 @@ Forex and crypto trading involve a high level of risk and can lead to the loss o
  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>    -->
 <script src="/assets/scripts/m.js"></script>
 <script>
-    let menu = document.querySelector('.menu');
-    menu.addEventListener('click',function(){
-        let drop = document.getElementById('m-drop');
-        drop.classList.toggle('m-d-o');
-        if(drop.classList.contains('m-d-o')){
-            menu.innerHTML = '<i class="fa-regular fa-circle-xmark"></i>';
-        }else{
-            menu.innerHTML = '<i class="fa-solid fa-bars"></i>';
-        }
-    })
+    // whatsapp
+    function sw(event, message) {
+  event.preventDefault();
 
-    document.querySelectorAll('.m-drop nav a').forEach(anchors=>{
-      anchors.addEventListener('click',()=>{
-        let drop = document.getElementById('m-drop');
-        drop.classList.remove('m-d-o');
-      })
-    })
-// faq
- let accordion = document.querySelectorAll('.fcontent .accordion-header');
-  accordion.forEach(ah=>{
-      ah.addEventListener('click',function(){
-          document.querySelectorAll('.fcontent .accordion-content').forEach((contents)=>{
-              if(contents !== ah.nextElementSibling){
-                  contents.classList.remove('accordopen');
-              }
-          });
-          ah.nextElementSibling.classList.toggle('accordopen');
-      });
-  });
+  const phoneNumber = "2347079169257"; // use country code, no +, no spaces
+  const encodedMessage = encodeURIComponent(message);
+
+  const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+  window.open(whatsappURL, "_blank");
+}
 // year
 let d = new Date();
 document.getElementById('year').innerHTML = d.getFullYear();
