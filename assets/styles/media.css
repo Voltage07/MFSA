@@ -16,7 +16,7 @@
   position: relative;
   }
 .a-header {
-  height: 70vh;
+  height: 65vh;
 }
 .a-header .hero {
   display: flex;
@@ -358,6 +358,26 @@ transition: all .5s;
   .privacy ul {
     font-size: 0.95rem;
   }
+  /* terms */
+  .terms h1 {
+  font-size:30px;
+}
+.terms h2{
+  font-size:20px;
+}
+.terms .terms-grid{
+  width: 100%;
+  display: grid;
+  grid-template-columns:1fr;
+  gap: 0;   
+}
+.terms .terms-grid .notice{
+ background-color: transparent;
+ margin: 10px auto;
+}
+.terms .intro p{
+  font-size: 14px;
+}
 /* prices */
 .pricing-wrapper {
   margin-top: 20px;
@@ -808,6 +828,26 @@ transition: all .5s;
   .privacy h1 {
     font-size: 2rem;
   }
+  /* terms */
+  .terms h1 {
+  font-size:30px;
+}
+.terms h2{
+  font-size:20px;
+}
+.terms .terms-grid{
+  width: 100%;
+  display: grid;
+  grid-template-columns:1fr;
+  gap: 0;   
+}
+.terms .terms-grid .notice{
+ background-color: transparent;
+ margin: 10px auto;
+}
+.terms .intro p{
+  font-size: 14px;
+}
 /* prices */
 .pricing-wrapper {
   margin-top: 20px;

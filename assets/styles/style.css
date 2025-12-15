@@ -873,6 +873,174 @@ transition: all .5s;
 .privacy p + p {
   margin-top: 0.6rem;
 }
+/* terms */
+.terms{
+  padding: 3rem 6%;
+  background: #f9f9f9;
+  font-family: system-ui, sans-serif;
+}
+.t-inner {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.terms .intro{
+  text-align: center;
+}
+.terms .intro p{
+  font-size: 20px;
+}
+.terms h1 {
+  font-size:50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.terms .terms-grid{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;   
+}
+.terms .terms-grid .notice{
+ background-color: transparent;
+ margin-top: 10px;
+}
+.terms .terms-grid .notice i{
+  color: red;
+}
+.terms .notice{
+  width: 100%;
+  background-color: #eeeaea;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 50px auto;
+}
+.terms .notice p {
+  margin: 0;
+}
+.terms .notice i {
+  font-size: 18px;
+  line-height: 18px;
+  color: var(--y-m);
+}
+.terms .notice2{
+  width: 100%;
+  background-color: #eeeaea;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 50px auto;
+  border-left: 5px solid var(--y-m);
+}
+.terms .notice2 .n-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.terms .notice2 p,
+.terms .notice2 h3 {
+  margin: 0;
+}
+.terms .notice2 i {
+  font-size: 30px;
+  line-height: 18px;
+  color: var(--y-m);
+}
+.terms .notice3{
+  width: 100%;
+  background-color: #eeeaea;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 50px auto;
+}
+.terms .notice3 .n-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.terms .notice3 p,
+.terms .notice3 h3 {
+  margin: 0;
+}
+.terms .notice3 .btn{
+  padding: 10px;
+  border-radius: 20px;
+  background-color: var(--y-m);
+  margin-top: 10px;
+}
+.terms .notice3 a{
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+.terms .notice3 i {
+  font-size: 30px;
+  line-height: 18px;
+  color: var(--white);
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--y-m);
+  font-weight: 700;
+}
+.terms .effective-date {
+  font-size: 14px;
+  background-color: #eeeaea;
+  color: var(--y-m);
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.terms h2 {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  color:var(--main);
+}
+.terms h3 {
+  font-size: 1.3rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+  color:var(--main);
+}
+
+.terms p,
+.terms ul {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: var(--grey);
+}
+
+.terms ul {
+  padding-left: 1.6rem;
+  list-style-type: disc;
+}
+
+.terms strong {
+  color: #111;
+}
+
+.terms p + p {
+  margin-top: 0.6rem;
+}
 /* about 2 */
 .about2{
   width: 100%;
