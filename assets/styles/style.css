@@ -442,7 +442,6 @@ nav a:last-child {
   }
   /* about */
 .about{
-  margin-top: 80px;
   width: 100%;
   display: grid;
   padding: 10px 30px;
@@ -451,6 +450,7 @@ nav a:last-child {
   background: linear-gradient(180deg, rgba(209, 209, 223, 0.5) 0%, rgba(209, 209, 223, 0.5) 80%),url(/assets/img/ab-bg.webp);
 }
 .about .a1{
+margin-top: 80px;
 padding: 30px;
 display: flex;
 flex-direction: column;
@@ -476,11 +476,12 @@ transition: all .5s;
   line-height: 1.7;
 }
   .about .a2{
-    padding: 30px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    position: relative;
+  margin-top: 80px;
+  padding: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
   will-change: transform;
   perspective: 800px;
   transform-style: preserve-3d;
