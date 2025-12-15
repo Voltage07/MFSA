@@ -16,7 +16,7 @@
   position: relative;
   }
 .a-header {
-  height: 50vh;
+  height: 60vh;
 }
 .a-header .hero {
   display: flex;
@@ -199,7 +199,7 @@ padding: 10px;
   /* about-about */
 .about-about{
   display: grid;
-  padding: 10px 30px;
+  padding: 10px 20px;
   grid-template-columns: 1fr;
 }
 .about-about .a1{
